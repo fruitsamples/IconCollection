@@ -2,7 +2,7 @@
      File: MyWindowController.h 
  Abstract: This sample's main window controller object.
   
-  Version: 1.1 
+  Version: 1.2 
   
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple 
  Inc. ("Apple") in consideration of your agreement to the following 
@@ -42,18 +42,19 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE 
  POSSIBILITY OF SUCH DAMAGE. 
   
- Copyright (C) 2009 Apple Inc. All Rights Reserved. 
+ Copyright (C) 2011 Apple Inc. All Rights Reserved. 
   
  */
 
 #import <Cocoa/Cocoa.h>
+
 #import "MyViewController.h"
 
 @interface MyWindowController : NSWindowController
 {
-    MyViewController		*viewController;
-    IBOutlet NSView			*myTargetView;
-    IBOutlet NSTextField	*selectionField;
+    MyViewController *viewController;
+    IBOutlet NSView	*myTargetView;
+    IBOutlet NSTextField *selectionField;
 }
 
 @end

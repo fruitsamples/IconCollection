@@ -6,7 +6,7 @@ Since creating an NSCollectionView object yields multiple top-level nib objects,
 
 Sample Requirements
 ===================
-The supplied Xcode project was created using Xcode v3.2 running under Mac OS X 10.6.
+The supplied Xcode project was created using Xcode v3.2 running under Mac OS X 10.6.x.
 
 Using the Sample
 ================
@@ -55,6 +55,7 @@ A property list consisting of an array if dictionary objects describing the coll
 
 Changes from Previous Versions
 ==============================
+Version 1.2 - Now builds 3-way Universal (ppc, i386, x86_64), gradient background now draws properly within the "documentVisibleRect".
 Version 1.1 - Upgraded to support changes in NSCollectionView for SnowLeopard:
 		- Adopted the nib-based approach for the prototype view.
 		- Made the collection view a dragging source.
@@ -69,4 +70,4 @@ Developer Technical Support
 ===========================
 The Apple Developer Connection Developer Technical Support (DTS) team is made up of highly qualified engineers with development expertise in key Apple technologies. Whether you need direct one-on-one support troubleshooting issues, hands-on assistance to accelerate a project, or helpful guidance to the right documentation and sample code, Apple engineers are ready to help you.  Refer to the Apple Developer Technical Support page.
 
-Copyright (C) 2007-2009 Apple Inc. All rights reserved.
+Copyright (C) 2007-2011 Apple Inc. All rights reserved.

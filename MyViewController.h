@@ -2,7 +2,7 @@
      File: MyViewController.h 
  Abstract: Controls the collection view of icons.
   
-  Version: 1.1 
+  Version: 1.2 
   
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple 
  Inc. ("Apple") in consideration of your agreement to the following 
@@ -42,7 +42,7 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE 
  POSSIBILITY OF SUCH DAMAGE. 
   
- Copyright (C) 2009 Apple Inc. All Rights Reserved. 
+ Copyright (C) 2011 Apple Inc. All Rights Reserved. 
   
  */
 
@@ -59,8 +59,8 @@
 
 @interface MyViewController : NSViewController <NSCollectionViewDelegate>
 {
-    IBOutlet NSCollectionView	*collectionView;
-    IBOutlet NSArrayController	*arrayController;
+    IBOutlet NSCollectionView *collectionView;
+    IBOutlet NSArrayController *arrayController;
     NSMutableArray *images;
     
     NSUInteger sortingMode;
@@ -69,8 +69,8 @@
     NSArray *savedAlternateColors;
 }
 
-@property(retain) NSMutableArray *images;
-@property(assign) NSUInteger sortingMode;
-@property(assign) BOOL alternateColors;
+@property (retain) NSMutableArray *images;
+@property (nonatomic, assign) NSUInteger sortingMode;
+@property (nonatomic, assign) BOOL alternateColors;
 
 @end
